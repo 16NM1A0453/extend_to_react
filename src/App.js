@@ -1,18 +1,19 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SignUp from './POC/SignUp';
-import Login from './POC/Login';
-import Home from './POC/Home';
+import React, { useReducer } from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NavBar from "./Components/NavBar/NavBar"
+import Home from "./Components/Home/Home";
+import Skills from "./Components/Skills/Skills";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/SignUp' element={<SignUp />} />
-        <Route path="/Login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+  return ( 
+    <>
+    <NavBar />
+    <Home />
+    <Skills />
+    <Contact />
+    </>
   );
 }
 
