@@ -3,11 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: transparent;
 }
 body{
-    background: black;
-    color: white;
     overflow: hidden;
     overflow-y: scroll;
 }

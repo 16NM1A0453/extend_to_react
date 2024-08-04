@@ -1,12 +1,11 @@
-import React, { useReducer } from "react";
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
+import SimpleCalc from './Components/SimpleCalculator/SimpleCalc';
 
 function App() {
-  return ( 
-    <>
-    
-    </>
+  return (
+    <div className="App">
+      <SimpleCalc />
+    </div>
   );
 }
 
