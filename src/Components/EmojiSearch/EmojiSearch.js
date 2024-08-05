@@ -14,7 +14,7 @@ const EmojiSearch = () => {
         }
     }, [search])
   return (
-    <div className='container'>
+    <div className='emojiSearch' id='emojiSearch'>
       <center className='emojiBox'>
         <h1 className='emojiSearchTitle'>Emoji Search</h1>
         <input

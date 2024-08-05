@@ -1,0 +1,40 @@
+#intro{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 65rem;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+    border-radius: 50%;
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: yellow;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

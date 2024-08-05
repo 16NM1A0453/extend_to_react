@@ -8,8 +8,8 @@ const SimpleCalc = () => {
         setValue(eval(value))
     }
   return (
-    <div className='container'>
-      <div className='calculator'>
+    <div className='simpleCalc' id='simpleCalc'>
+      <div className='calculator'><h1>Simple Calculator</h1>
         <form action=''>
             <div className='display'>
                 <input type='text' value={value}/>

@@ -1,10 +1,12 @@
-.container{
+.simpleCalc{
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 65rem;
 }
 .calculator{
     padding: 20px;
@@ -25,7 +27,8 @@ form input{
     cursor: pointer;
 }
 form input[type='button']:hover{
-    background: blue;
+    background: yellow;
+    color: black;
 }
 form .display{
     display: flex;

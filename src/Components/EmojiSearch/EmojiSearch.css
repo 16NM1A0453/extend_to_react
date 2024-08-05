@@ -1,6 +1,14 @@
-.container{
-    background: black;
-    color: white;
+.emojiSearch {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emojiBox{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
 }
 li {
     list-style-type: none;
@@ -25,4 +33,6 @@ li {
     color: black;
     border-radius: 10px;
     justify-content: center;
+    align-items: center;
+    width: 13rem;
 }
