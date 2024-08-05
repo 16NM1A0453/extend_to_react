@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './SimpleCalc.css'
 
-function SimpleCalc() {
+const SimpleCalc = () => {
     const [value, setValue] = useState('')
 
     const performOperation = (e) => {

@@ -1,0 +1,29 @@
+.container{
+    background: black;
+    color: white;
+}
+li {
+    list-style-type: none
+}
+.emojiSearchTitle{
+    padding: 10px;
+}
+.emojiBox > input{
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    background: rgb(107, 106, 106);
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+}
+.dataFound{
+    padding: 20px;
+    background: rgb(230, 227, 227);
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+    float: left;
+}

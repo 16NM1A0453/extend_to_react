@@ -1,10 +1,12 @@
 import './App.css';
+import EmojiSearch from './Components/EmojiSearch/EmojiSearch';
 import SimpleCalc from './Components/SimpleCalculator/SimpleCalc';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <SimpleCalc />
+      {/* <SimpleCalc /> */}
+      <EmojiSearch />
     </div>
   );
 }
